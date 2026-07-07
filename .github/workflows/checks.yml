@@ -1,0 +1,19 @@
+name: checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate skill
+        run: python3 scripts/quick_validate.py professor-distillation
+      - name: Privacy audit
+        run: python3 scripts/privacy_audit.py .

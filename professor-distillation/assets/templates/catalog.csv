@@ -1,0 +1,2 @@
+doc_id,title,authors,year,source_type,relationship_level,venue,doi,url,status,extraction_quality
+synthetic_2026_active_control,Synthetic Active Control Study,A. Student; B. Professor,2026,journal,A,Synthetic Journal,10.0000/synthetic-active-control,https://example.org/synthetic-active-control,processed,B

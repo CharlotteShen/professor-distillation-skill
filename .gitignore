@@ -1,0 +1,28 @@
+# Local/private research material
+corpus/
+knowledge_base/
+notes/
+outputs/
+downloads/
+papers/
+raw/
+processed/
+indexes/
+config/secrets/
+config/local_tools.yaml
+*.pdf
+*.enl
+*.ris
+*.bib
+*.sqlite
+*.db
+page_text.jsonl
+canonical.md
+
+# Local/editor noise
+.DS_Store
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+.env.*

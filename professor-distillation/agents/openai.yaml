@@ -1,0 +1,3 @@
+display_name: Professor Distillation
+short_description: Build private, citation-grounded professor research workflows.
+default_prompt: Use the professor-distillation skill to set up or operate a local-first evidence-backed workflow for a professor research corpus.
