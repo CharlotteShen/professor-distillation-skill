@@ -23,8 +23,10 @@ Build and operate a private, local-first research distillation workflow around a
 
 1. For setup or end-to-end operation, read `references/workflow.md`.
 2. For claims, confidence, retrieval, and visual-gate rules, read `references/evidence-contract.md`.
-3. Before publishing or sharing any derivative, read `references/privacy-and-release.md` and run the audit scripts.
-4. Use `assets/templates/` as starter files for a private downstream workspace.
+3. For public subagent role cards, read `references/agent-roles.md`.
+4. For a synthetic subagent demo, read `references/demo-subagents.md` and use `assets/templates/demo-corpus/`.
+5. Before publishing or sharing any derivative, read `references/privacy-and-release.md` and run the audit scripts.
+6. Use `assets/templates/` as starter files for a private downstream workspace.
 
 ## Agent Outputs
 

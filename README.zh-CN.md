@@ -10,7 +10,7 @@
 
 - 面向私有教授语料库的工作流指南。
 - 用于证据型 claim、检索、综合、稿件评审和组会准备的安全约束。
-- 只包含合成示例的入门模板。
+- 只包含合成示例的入门模板和 subagent 演示。
 - 一个隐私审计门禁，用来避免泄露个人信息、私有材料或非开放获取文献内容。
 
 ## 这不是什么
@@ -40,6 +40,8 @@ cp -R professor-distillation ~/.codex/skills/
 - `professor-distillation/references/workflow.md`
 - `professor-distillation/references/evidence-contract.md`
 - `professor-distillation/references/privacy-and-release.md`
+- `professor-distillation/references/agent-roles.md`
+- `professor-distillation/references/demo-subagents.md`
 
 ## 常见问答
 
@@ -70,6 +72,11 @@ cp -R professor-distillation ~/.codex/skills/
 ### Claude Code 或其他代理也能用吗？
 
 可以。Codex 可以把 `professor-distillation/SKILL.md` 作为 skill 加载。Claude Code 和其他代理可以读取 `AGENTS.md`、`CLAUDE.md` 以及同一组 Markdown 参考文件。
+
+
+### 为什么 subagent 需要足够多已经消化的论文？
+
+只有一篇论文时，工作区最多支持单篇分析和谨慎检索；跨论文综合、研究 gap、稿件评审和组会准备需要多条页码级证据记录。公开 demo 用 `starter`、`usable`、`strong` 标记成熟度，避免代理从过薄语料中过度推断。
 
 ### 哪些内容绝对不能提交？
 

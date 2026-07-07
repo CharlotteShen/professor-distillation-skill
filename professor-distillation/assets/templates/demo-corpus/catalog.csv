@@ -1,0 +1,7 @@
+doc_id,title,authors,year,source_type,relationship_level,venue,doi,url,status,extraction_quality
+synthetic_2026_frame_damping,Synthetic Frame Damping Benchmark,A. Demo; B. Example,2026,journal,A,Synthetic Journal of Structural Learning,synthetic-doi-001,https://example.org/synthetic/frame-damping,processed,B
+synthetic_2026_bridge_sensing,Synthetic Bridge Sensing Study,C. Demo; D. Example,2026,journal,A,Synthetic Journal of Sensing,synthetic-doi-002,https://example.org/synthetic/bridge-sensing,processed,B
+synthetic_2025_energy_device,Synthetic Energy Device Evaluation,E. Demo; F. Example,2025,conference,D,Synthetic Conference on Devices,synthetic-doi-003,https://example.org/synthetic/energy-device,processed,B
+synthetic_2025_control_review,Synthetic Control Review,G. Demo; H. Example,2025,review,D,Synthetic Review Letters,synthetic-doi-004,https://example.org/synthetic/control-review,processed,C
+synthetic_2024_sensor_layout,Synthetic Sensor Layout Experiment,I. Demo; J. Example,2024,journal,A,Synthetic Journal of Monitoring,synthetic-doi-005,https://example.org/synthetic/sensor-layout,processed,B
+synthetic_2024_meeting_case,Synthetic Meeting Preparation Case,K. Demo; L. Example,2024,technical_note,C,Synthetic Notes Archive,synthetic-doi-006,https://example.org/synthetic/meeting-case,processed,C

@@ -10,7 +10,7 @@ The skill is Codex-native through `professor-distillation/SKILL.md`, but it is p
 
 - A workflow guide for private, local professor-corpus distillation.
 - A safety contract for evidence-backed claims, retrieval, synthesis, manuscript critique, and meeting prep.
-- Starter templates with synthetic examples only.
+- Starter templates and a synthetic subagent demo only.
 - A privacy audit gate to prevent leaking personal, private, or non-open-access corpus data.
 
 ## What This Is Not
@@ -40,6 +40,8 @@ Point the agent at this repository and ask it to follow `AGENTS.md` or `CLAUDE.m
 - `professor-distillation/references/workflow.md`
 - `professor-distillation/references/evidence-contract.md`
 - `professor-distillation/references/privacy-and-release.md`
+- `professor-distillation/references/agent-roles.md`
+- `professor-distillation/references/demo-subagents.md`
 
 ## Questions And Answers
 
@@ -70,6 +72,11 @@ No. The baseline is local and deterministic: Markdown, CSV, JSON/JSONL, SQLite, 
 ### Can Claude Code or other agents use it?
 
 Yes. Codex can load `professor-distillation/SKILL.md` as a skill. Claude Code and other agents can follow `AGENTS.md`, `CLAUDE.md`, and the same Markdown reference files.
+
+
+### Why do subagents need enough digested papers?
+
+A one-paper workspace can support paper-level analysis and cautious evidence lookup, but cross-paper synthesis, gap generation, manuscript critique, and meeting prep need multiple page-grounded records. The public demo labels readiness as `starter`, `usable`, or `strong` so agents do not overclaim from a thin corpus.
 
 ### What should never be committed?
 

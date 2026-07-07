@@ -51,6 +51,7 @@ PATTERNS = [
     ("specific private professor marker", re.compile(r"(?i)(songye\s+zhu|hong kong polytechnic|hk polyu|polyu)")),
     ("mineru secret marker", re.compile(r"(?i)(mineru_api_key|mineru_exceed_limit|mineru.*backup)")),
     ("endnote private marker", re.compile(r"(?i)(\.enl|endnote library|library\.ris)")),
+    ("real DOI pattern", re.compile(r"\b10\.\d{4,9}/[^\s<>\"']+")),
 ]
 
 TEXT_SUFFIXES = {
@@ -84,6 +85,7 @@ ALLOW_PATTERN_LABELS = {
         "specific private professor marker",
         "mineru secret marker",
         "endnote private marker",
+        "real DOI pattern",
     },
 }
 
