@@ -77,6 +77,22 @@ Use the meeting prep role to prepare a 10-minute meeting from the synthetic demo
 Use the writing-style analyst role on synthetic notes only. Extract structural guidance such as problem-framing order and validation-story pattern without imitating prose.
 ```
 
+## Example Output Shape
+
+A librarian-style demo answer should stay compact and evidence-indexed:
+
+```text
+Query/topic: adaptive damping
+
+Matches:
+- synthetic_claim_001 | doc_id: synthetic_2026_frame_damping | location: page 2 | evidence_type: explicit | confidence: high | extraction_quality: B
+  Use: supports a synthetic claim that adaptive damping reduced peak drift in the benchmark frame.
+- synthetic_claim_002 | doc_id: synthetic_2026_frame_damping | location: page 3 | evidence_type: explicit | confidence: high | extraction_quality: B
+  Use: supports a synthetic limitation about delay-sensitive controller tuning.
+
+Limitation: this is a six-document synthetic demo, so it is usable for role behavior but not strong enough for real gap or manuscript claims.
+```
+
 ## Expected Demo Discipline
 
 Every demo answer should cite synthetic evidence IDs, state confidence and limitations, and say when the synthetic corpus is too small for a role's stronger conclusions.
