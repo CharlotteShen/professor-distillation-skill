@@ -1,5 +1,7 @@
 # Professor Distillation Skill
 
+[English](README.md) | [简体中文](README.zh-CN.md)
+
 A public, local-first skill for helping research students build a citation-grounded knowledge workflow around a professor's research corpus.
 
 The skill is Codex-native through `professor-distillation/SKILL.md`, but it is plain Markdown so Claude Code and other coding agents can use the same workflow through `AGENTS.md` or `CLAUDE.md`.
@@ -38,6 +40,40 @@ Point the agent at this repository and ask it to follow `AGENTS.md` or `CLAUDE.m
 - `professor-distillation/references/workflow.md`
 - `professor-distillation/references/evidence-contract.md`
 - `professor-distillation/references/privacy-and-release.md`
+
+## Questions And Answers
+
+### What can this skill help me build?
+
+It helps you build a private, local-first workflow for turning a professor's papers, theses, notes, and related materials into citation-grounded evidence records, synthesis notes, research-gap ideas, manuscript critiques, and meeting-prep packets.
+
+### Can it analyze my professor's papers?
+
+Yes, but the analysis should happen in your own private workspace. This public repo only provides the workflow and synthetic templates; it does not include real papers or extracted text.
+
+### Does it use private or non-OA data?
+
+No. The public skill contains no corpus data. If your private workspace includes licensed or non-open-access papers, keep those files, extracted text, notes, and generated claims out of public repos.
+
+### Can it prepare meeting notes?
+
+Yes. The workflow guides agents to prepare evidence-backed meeting briefs, likely questions, answer bullets, and do-not-overclaim cautions from your local corpus.
+
+### Does it impersonate the professor?
+
+No. The skill explicitly forbids impersonation and private-knowledge claims. It organizes local evidence so you can reason about patterns, gaps, and meeting questions responsibly.
+
+### Does it require OpenAI API, RAG, or vector search?
+
+No. The baseline is local and deterministic: Markdown, CSV, JSON/JSONL, SQLite, and page-grounded evidence. You can add other tools privately, but they are not required by this public skill.
+
+### Can Claude Code or other agents use it?
+
+Yes. Codex can load `professor-distillation/SKILL.md` as a skill. Claude Code and other agents can follow `AGENTS.md`, `CLAUDE.md`, and the same Markdown reference files.
+
+### What should never be committed?
+
+Never commit PDFs, extracted page text, EndNote libraries or exports, private notes, real claim records, generated outputs, API keys, local paths, or any copyrighted/non-open-access source text.
 
 ## Release Gate
 
